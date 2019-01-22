@@ -15,7 +15,7 @@ declare var M: any;
 })
 export class StudentComponent implements OnInit {
 
-  constructor(private studentService: StudentService) { }
+  constructor(public studentService: StudentService) { }
 
   ngOnInit() {
     this.resetForm();
